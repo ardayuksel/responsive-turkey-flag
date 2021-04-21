@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 10px;
+  background-color: white;
+}
+
+.wrapper {
+  margin-top: 10px;
+  position: relative;
+  background-color: #e30a17;
+  padding-top: 66.66%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.wrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  /* 1/45 white line*/
+  width: 2.2222%;
+  height: 100%;
+  background-color: white;
+}
+
+.moon-out {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  bottom: 25%;
+  left: 20%;
+  height: 50%;
+  width: 33.33%;
+  background-color: white;
+  border-radius: 50%;
+}
+.moon-in {
+  margin-right: -3%;
+  width: 80%;
+  height: 80%;
+  border-radius: 50%;
+  background-color: #e30a17;
+}
+.moon-in::after {
+  content: "";
+  position: absolute;
+  right: -40%;
+  top: 25%;
+  background-color: white;
+  width: 50%;
+  height: 50%;
+  transform: rotate(53.7deg);
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
+}
