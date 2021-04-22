@@ -12,7 +12,7 @@ body {
 }
 
 .wrapper {
-  /*margin-top: 10px;*/
+  margin-top: 10px;
   position: relative;
   background-color: #e30a17;
   padding-top: 66.66%;
@@ -21,7 +21,7 @@ body {
   flex-direction: row;
 }
 .wrapper::before {
-  /* content: "";*/
+  content: "";
   position: absolute;
   top: 0;
   /* 1/45 white line*/
