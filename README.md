@@ -5,4 +5,4 @@ Basic an example of responsive Turkey flag
 - HTML5
 - CSS3
 
-![a](https://user-images.githubusercontent.com/22565318/115661128-ad454100-a345-11eb-9f30-668f484e3910.mov)
+![](https://user-images.githubusercontent.com/22565318/115661128-ad454100-a345-11eb-9f30-668f484e3910.mov)
